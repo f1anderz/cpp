@@ -35,16 +35,16 @@ int main() {
     // creating new array with size of previous
     int reversedAsciiSumNumbers[sizeof(asciiSumNumbers) / sizeof(*asciiSumNumbers)];
     // reversing array in loop
-    for (int i = (sizeof(asciiSumNumbers) / sizeof(*asciiSumNumbers) - 1); i >= 0;) {
+    for (int i = int(sizeof(asciiSumNumbers) / sizeof(*asciiSumNumbers) - 1); i >= 0;) {
         reversedAsciiSumNumbers[k++] = asciiSumNumbers[i--];
     }
 
     // showing the number, iterating 7 times because of height of each custom digit
     for (int i = 0; i < 7; i++) {
         // iterating through all the digits that exist in number
-        for (int j = 0; j < (sizeof(asciiSumNumbers) / sizeof(*asciiSumNumbers)); j++) {
+        for (int j = 0; j < (sizeof(reversedAsciiSumNumbers) / sizeof(*reversedAsciiSumNumbers)); j++) {
             // setting current number
-            int number = asciiSumNumbers[j];
+            int number = reversedAsciiSumNumbers[j];
             // searching current number and printing string with current index
             switch (number) {
                 case 0:

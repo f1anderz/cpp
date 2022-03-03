@@ -1,4 +1,5 @@
 #include <iostream>
+// including library for strlen() function
 #include <cstring>
 
 int main() {

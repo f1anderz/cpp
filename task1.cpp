@@ -97,7 +97,7 @@ int main() {
     // showing array before swaps
     std::cout << "Array before swaps: " << std::endl;
     showArray(array, m, n);
-    // showing array after swapping rows
+    //     showing array after swapping rows
     std::cout << "Array after row swap: " << std::endl;
     swapRows(array, m, n);
     showArray(array, m, n);

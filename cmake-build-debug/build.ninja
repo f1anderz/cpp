@@ -49,8 +49,8 @@ cmake_ninja_workdir = D$:/DEV/ClionProjects/Lab5/cmake-build-debug/
 
 build cmake_object_order_depends_target_Lab5: phony || CMakeFiles/Lab5.dir
 
-build CMakeFiles/Lab5.dir/main.cpp.obj: CXX_COMPILER__Lab5_Debug D$:/DEV/ClionProjects/Lab5/main.cpp || cmake_object_order_depends_target_Lab5
-  DEP_FILE = CMakeFiles\Lab5.dir\main.cpp.obj.d
+build CMakeFiles/Lab5.dir/task3.cpp.obj: CXX_COMPILER__Lab5_Debug D$:/DEV/ClionProjects/Lab5/task3.cpp || cmake_object_order_depends_target_Lab5
+  DEP_FILE = CMakeFiles\Lab5.dir\task3.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\Lab5.dir
   OBJECT_FILE_DIR = CMakeFiles\Lab5.dir
@@ -63,7 +63,7 @@ build CMakeFiles/Lab5.dir/main.cpp.obj: CXX_COMPILER__Lab5_Debug D$:/DEV/ClionPr
 #############################################
 # Link the executable Lab5.exe
 
-build Lab5.exe: CXX_EXECUTABLE_LINKER__Lab5_Debug CMakeFiles/Lab5.dir/main.cpp.obj
+build Lab5.exe: CXX_EXECUTABLE_LINKER__Lab5_Debug CMakeFiles/Lab5.dir/task3.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Lab5.dir

@@ -61,8 +61,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_Lab3: phony || CMakeFiles/Lab3.dir
 
-build CMakeFiles/Lab3.dir/task4.cpp.obj: CXX_COMPILER__Lab3_Debug D$:/DEV/ClionProjects/Lab3/task4.cpp || cmake_object_order_depends_target_Lab3
-  DEP_FILE = CMakeFiles\Lab3.dir\task4.cpp.obj.d
+build CMakeFiles/Lab3.dir/task5.cpp.obj: CXX_COMPILER__Lab3_Debug D$:/DEV/ClionProjects/Lab3/task5.cpp || cmake_object_order_depends_target_Lab3
+  DEP_FILE = CMakeFiles\Lab3.dir\task5.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\Lab3.dir
   OBJECT_FILE_DIR = CMakeFiles\Lab3.dir
@@ -75,7 +75,7 @@ build CMakeFiles/Lab3.dir/task4.cpp.obj: CXX_COMPILER__Lab3_Debug D$:/DEV/ClionP
 #############################################
 # Link the executable Lab3.exe
 
-build Lab3.exe: CXX_EXECUTABLE_LINKER__Lab3_Debug CMakeFiles/Lab3.dir/task4.cpp.obj
+build Lab3.exe: CXX_EXECUTABLE_LINKER__Lab3_Debug CMakeFiles/Lab3.dir/task5.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Lab3.dir

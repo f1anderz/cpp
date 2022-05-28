@@ -67,9 +67,11 @@ int main() {
         arr[i + size1] = arr2[i];
     }
     // showing merged array
+    std::cout << "Merges array: " << std::endl;
     printArray(arr, size);
     // sorting merged array
     arr = bubbleSort(arr, size);
     // showing sorted merged array
+    std::cout << "Sorted array: " << std::endl;
     printArray(arr, size);
 }
